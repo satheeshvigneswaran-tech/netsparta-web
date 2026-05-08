@@ -46,6 +46,8 @@ export default function Footer() {
           <div className="footer__col">
             <h4>Get In Touch</h4>
             <ul>
+              <li><a href="mailto:hello@netsparta.com">hello@netsparta.com</a></li>
+              <li><a href="tel:+447730012379">+44 7730 012379</a></li>
               <li><Link href="/contact">Let's Talk</Link></li>
               <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>

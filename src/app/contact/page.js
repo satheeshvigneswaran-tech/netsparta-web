@@ -17,6 +17,16 @@ export default function Contact() {
 
         <div className={styles.grid}>
           <div className={styles.info}>
+            <div className={styles.contactDetails}>
+              <a href="mailto:hello@netsparta.com" className={styles.contactItem}>
+                <span className={styles.contactIcon}>✉</span>
+                hello@netsparta.com
+              </a>
+              <a href="tel:+447730012379" className={styles.contactItem}>
+                <span className={styles.contactIcon}>📞</span>
+                +44 7730 012379
+              </a>
+            </div>
             <h3 className={styles.infoTitle}>What happens next</h3>
             <div className={styles.steps}>
               <div className={styles.step}>

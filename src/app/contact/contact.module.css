@@ -4,6 +4,14 @@
 .grid { display: grid; grid-template-columns: 380px 1fr; gap: 60px; align-items: start; }
 
 .info {}
+.contactDetails { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+.contactItem {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 15px; font-weight: 500; color: var(--text);
+  transition: color var(--trans);
+}
+.contactItem:hover { color: var(--red); }
+.contactIcon { font-size: 18px; }
 .infoTitle { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 28px; }
 .steps { display: flex; flex-direction: column; gap: 24px; }
 .step { display: flex; gap: 16px; align-items: flex-start; }
