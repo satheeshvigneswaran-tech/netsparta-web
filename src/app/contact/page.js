@@ -48,9 +48,9 @@ export default function Contact() {
             action="https://api.web3forms.com/submit"
             method="POST"
           >
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="access_key" value="a857e5c7-7243-48f0-b048-7cc5675ae039" />
             <input type="hidden" name="subject" value="New Enquiry — Netsparta" />
-            <input type="hidden" name="redirect" value="https://netsparta.com/thank-you" />
+            <input type="hidden" name="redirect" value="https://netsparta.com/thank-you/" />
 
             <div className={styles.row}>
               <div className={styles.group}>
